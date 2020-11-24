@@ -1,0 +1,185 @@
+
+:root{
+
+    --primary:#1a253f;
+    --dark:#151A33;
+    --pure: #eff2f9;
+    --fade : #7081b9;
+    --mild : #8997bd;
+    --black : #060b1b;
+  --dribble: #ff5da0;
+   --danger : #f1646c;
+    
+
+}
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+   
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+}
+
+.box1{
+      
+    height: 791px;
+    width: 100%;
+    background-image: url(img/4.jpg);  
+    background-size: cover;
+    
+
+}
+
+
+
+.box1 .heading{
+    color: var(--pure);
+    width: 571px;
+    height: 414px;
+    position: absolute;
+    right: 69px;
+    top: 188px;
+    /* box-shadow: 1px 1px 5px 1px wheat; */
+    border-radius: 10px;
+    font-size: 100px;
+    font-weight: 500;
+    font-family: auto;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+
+.box2{
+    height: 791px;
+    width: 100%;
+    background-color: var(--primary);
+    
+    
+}
+
+.box2 .head{
+    /* border:2px solid red; */
+    height: 180px;
+    width: 100%;
+    color: var(--mild);
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3 rem;
+    clip-path: polygon(0 0 , 100% 0 , 100% 80% , 25% 100% , 0 80%);
+    
+}
+
+.box2 .head h1{
+    
+    color: var(--mild);
+    font-size: 88px;
+     align-items: center; 
+    font-weight: 500;
+    font-family: cursive;
+    text-transform: capitalize;
+
+
+    position: absolute;
+    right: 474px;
+}
+
+.box2 .main-box{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    height: 373px;
+    position: relative;
+    top: 35px;
+
+   
+
+    
+
+}
+
+.box2 .main-box p{
+
+    color:orange;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+
+.box2 .main-box .left{
+  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+
+}
+
+.box2 .main-box .middle{
+  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+  
+}
+
+.box2 .main-box .right{
+  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+.box2 .result{
+
+    height: 100px;
+    position: relative;
+    top: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.box2 .result button{
+
+    
+    width: 263px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: var(--danger);
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.box2 .result button:hover{
+    border:2px solid white;
+    
+}
+
+
